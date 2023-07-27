@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+  
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+  
+li {
+    margin-right: 20px;
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+  
+a:hover {
+    background-color: #555;
+}
+
+#top {
+    display:flex;
+}
+
+#banner{
+	width:100%;
+    height: 100vh;
+    position:relative;
+}
+
+#bannerDesc {
+    width :45%;
+    height:30vh;
+    padding:3%;
+    text-align:justify;
+    border-radius:20px;
+    position:absolute;
+    top:35%;
+    left:24%
+}
+
+#bannerDesc > p{
+    font-size : 25px;
+    line-height: 30px;
+    font-weight: bold;
+    color:rgb(255, 205, 233);
+    text-shadow: #000 1px 0 10px;
+}
+
+#bannerDesc > h3{
+    font-size:32px;
+    line-height: 40px;
+    color:rgb(255, 205, 233);
+    text-shadow: #000 1px 0 10px;
+
+}
+
+.name{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.map{
+    height:220px;
+}
+
+.post{
+    width: 220px;
+    height:294px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.desc {
+    margin:2%;
+    padding:2%;
+}
+.box {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    margin-top:2%
+}
+.social {
+    width:60px;
+    height:60px;
+    padding:1%;
+}
+.header {
+    font-size:25px;
+    font-weight:bold;
+    margin-bottom:2%;
+}
+#contactBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    justify-content : center;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    padding:2%;
+}
+#bottom {
+    text-align :center;
+    height :30vh;
+    padding: 3%;
+    background-color:thistle;
+}
+.big {
+    width:40%;
+}
+.small {
+    width:20%;
+}
